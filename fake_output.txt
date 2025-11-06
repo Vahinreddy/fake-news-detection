@@ -1,0 +1,23 @@
+Last login: Wed Nov  5 20:41:29 on ttys000
+vahinireddy@Vahinis-MacBook-Air ~ % curl -X POST http://127.0.0.1:5000/predict \ 
+-H "Content-Type: application/json" \
+-d '{"text":"Aliens have landed in New York City!"}'
+
+{
+  "prediction": "Fake"
+}
+vahinireddy@Vahinis-MacBook-Air ~ % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
